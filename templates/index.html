@@ -1,0 +1,399 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Title -->
+    <title>Zare - Personal Resume</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="{% static 'assets/img/favicon.png' %}">
+    <link rel="apple-touch-icon" href="{% static 'assets/img/favicon_60x60.png' %}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'assets/img/favicon_76x76.png' %}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{% static 'assets/img/favicon_120x120.png' %}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{% static 'assets/img/favicon_152x152.png' %}">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i%7CPoppins:300,400,500,600" rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}" />
+
+    <!-- CSS Theme -->
+    <link id="theme" rel="stylesheet" href="{% static 'assets/css/themes/theme-serif-bottle.css' %}" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="page-loader">
+        <svg class="loader" width="32px" height="32px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle" fill="none" stroke-width="5" stroke-linecap="round" cx="32" cy="32" r="32"></circle>
+        </svg>
+    </div>
+    <!-- Loader / End -->
+
+    <!-- Header -->
+    <header id="header" class="header-horizontal transparent">
+
+        <div class="row">
+            <div class="col-md-2">
+                <!-- Photo -->
+                <a href="index.html" class="photo">
+                    <img src="{% static 'assets/img/avatars/resume-profile.png' %}" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <!-- Navigation -->
+                <nav id="main-menu">
+                    <ul class="nav nav-horizontal">
+                        <li><a href="#start">Start</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <span class="selector"></span>
+                </nav>
+            </div>
+        </div>
+        <!-- Mobile Nav Toggle -->
+        <a href="#" id="horizontal-nav-toggle" class="nav-toggle"
+            data-toggle="mobile-nav"><span><span></span></span></a>
+
+    </header>
+    <!-- Header / End -->
+
+    <!-- Content -->
+    <div id="content">
+
+        <!-- Section - Start -->
+        <section id="start" class="section fullheight dark bg-dark">
+
+            <!-- BG Image -->
+            <div class="bg-image bg-fixed"><img src="{% static 'assets/img/photos/lawyer_bg01.jpg' %}" alt=""></div>
+            <div class="container container-custom v-center text-center">
+                <h1 class="text-lg mb-0"><em>Hi! I’m</em> MohammadReza Zare</h1>
+                <p class="lead text-muted">Experienced ISP</p>
+            </div>
+
+
+        </section>
+
+        <!-- Section - Resume -->
+        <section id="resume" class="section">
+
+            <div class="container container-custom">
+                <p class="lead text-muted mb-80">Make your dreams come true otherwise someone else will use you to make
+                    their dreams come true..</p>
+
+                <div class="row masonry long-spaces">
+                    <div class="masonry-sizer col-sm-6 col-xs-12"></div>
+                    <!-- Specialities -->
+                    <div class="masonry-item col-sm-6 col-xs-12">
+                        <div class="resume-card">
+                            <h3 class="title">My Specialities</h3>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-2">
+                                        <span class="icon icon-primary"><i class="fa fa-rss"
+                                                aria-hidden="true"></i></i></span>
+                                        <div class="feature-content">
+                                            <h4>ISP</h4>
+                                        </div>
+                                    </div>
+                                    <!-- Feature -->
+                                    <div class="feature feature-2">
+                                        <span class="icon icon-primary"><i class="fa fa-code"
+                                                aria-hidden="true"></i></span>
+                                        <div class="feature-content">
+                                            <h4>Backend developer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-2">
+                                        <span class="icon icon-primary"><i class="fa fa-comments-o"
+                                                aria-hidden="true"></i></span>
+                                        <div class="feature-content">
+                                            <h4>Social Media</h4>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills -->
+                    <div class="masonry-item col-sm-6 col-xs-12">
+                        <div class="resume-card">
+                            <h3 class="title">Skills</h3>
+                            <!-- Skill -->
+                            <div class="skill">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80"></div>
+                                </div>
+                                <h5>Python</h5>
+                            </div>
+                            <!-- Skill -->
+                            <div class="skill">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50"></div>
+                                </div>
+                                <h5>django</h5>
+                            </div>
+                            <!-- Skill -->
+                            <div class="skill">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50"></div>
+                                </div>
+                                <h5>HTML / CSS / JavaScript</h5>
+                            </div>
+                            <!-- Skill -->
+                            <div class="skill">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80"></div>
+                                </div>
+                                <h5>Network+</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Languages -->
+                    <div class="masonry-item col-sm-6 col-xs-12">
+                        <div class="resume-card">
+                            <h3 class="title">Languages</h3>
+                            <!-- Skill -->
+                            <div class="skill">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"></div>
+                                </div>
+                                <h5>English</h5>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Educatin & Jobs -->
+                    <div class="masonry-item col-sm-6 col-xs-12">
+                        <div class="resume-card">
+                            <h3 class="title">Education &amp; Jobs</h3>
+                            <div class="timeline">
+                                <!-- Event-->
+                                <div class="timeline-event animated">
+                                    <div class="content">
+                                        <img src="{% static 'assets/img/photos/isp-icon1.png' %}" alt=""
+                                            class="img-rounded">
+                                        <span class="date">2020 - Til now</span>
+                                        <h4>ISP</h4>
+                                        <span class="caption">SHIRAZ - IRAN</span>
+                                    </div>
+                                </div>
+                                <!-- Event-->
+                                <div class="timeline-event animated">
+                                    <div class="content">
+                                        <img src="{% static 'assets/img/photos/hire-backend3.png' %}" alt=""
+                                            class="img-rounded">
+                                        <span class="date">2022 - Til now</span>
+                                        <h4>Junior Backend developer</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Hobbies -->
+                    <div class="masonry-item col-sm-6 col-xs-12">
+                        <div class="resume-card">
+                            <h3 class="title">Hobbies &amp; Interests</h3>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <!-- Feature -->
+                                    <div class="feature feature-1 text-center">
+                                        <span class="icon icon-primary"><i class="fa fa-gamepad"
+                                                aria-hidden="true"></i></span>
+                                        <h4>Video Game</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <!-- Feature -->
+                                    <div class="feature feature-1 text-center">
+                                        <span class="icon icon-primary"><i class="fa fa-bicycle"
+                                                aria-hidden="true"></i></span>
+                                        <h4>Sport</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <!-- Feature -->
+                                    <div class="feature feature-1 text-center">
+                                        <span class="icon icon-primary"><i class="fa fa-film"
+                                                aria-hidden="true"></i></span>
+                                        <h4>Movies</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section - Contact -->
+        <section id="contact" class="section min-fullheight">
+
+
+            <div class="container container-custom">
+                <div class="contact-box bg-primary dark animated" data-animation="fadeInDown"
+                    data-animation-delay="500">
+                    <div class="contact-box-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 class="mb-50"><em>Don’t hesitate to</em> contact me!</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="feature feature-1">
+                                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                    <a href="#" class="h3 font-primary">m4tinn6@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="feature feature-1">
+                                    <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                                    <a href="#" class="h3 font-primary"><small>+98</small> 904 641 3139</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="feature feature-1">
+                                    <div class="icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
+                                    <address>
+                                        Shiraz,<br>
+                                        Fars province,<br>
+                                        IRI
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="sep-line">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h5 class="mt-5">Check my social media!</h5>
+                            </div>
+                            <div class="col-sm-6 text-right">
+                                <ul class="nav-icons">
+                                    <li><a href="https://www.instagram.com/_m4tinn_/"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li><a href="https://twitter.com/Face_Puller6"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="contact-toggle"></a>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+    <!-- Content / End -->
+
+    <!-- Contact Popup Controls -->
+    <div class="contact-popup-ctrl">
+        <a href="#" class="contact-popup-toggle" data-toggle="contact-popup"><span class="typing"
+                data-text='["Have a question?","Write to me!"]'>Write to me!</span></a>
+        <a href="#" class="contact-popup-close" data-toggle="contact-popup"><i class="fa fa-times-circle"
+                aria-hidden="true"></i></a>
+    </div>
+    <!-- Contact Popup -->
+    <div id="contact-popup" class="contact-popup dark">
+        <div class="v-center row">
+            <div class="col-lg-6 col-md-9">
+                <form id="contact-form" class="validate-form">
+                    <div class="head">
+                        <span class="form-status">1/2</span>
+                        <h3>Write to me!</h3>
+                    </div>
+                    <div class="steps">
+                        <!-- Form Step -->
+                        <div class="step active" data-step="1">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <input id="name" name="name" type="text" class="form-control"
+                                        placeholder="Your name" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input id="email" name="email" type="text" class="form-control"
+                                        placeholder="Your e-mail" required>
+                                </div>
+                            </div>
+                            <div class="bottom clearfix">
+                                <nav class="controls">
+                                    <a href="#" class="btn btn-white" data-target="form-next-step">Next step  <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- Form Step -->
+                        <div class="step" data-step="2">
+                            <textarea name="message" id="message" rows="3" class="form-control"
+                                placeholder="Tap here your message..." required></textarea>
+                            <div class="bottom clearfix">
+                                <div class="info"><span>from</span> <em id="sender"></em></div>
+                                <nav class="controls">
+                                    <button class="btn btn-link" data-target="form-prev-step"><i class="fa fa-undo"
+                                            aria-hidden="true"></i></button>
+                                    <button type="submit" class="btn btn-white btn-submit"><span>Send a message! <i class="fa fa-check" aria-hidden="true"></i></span></button>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ajax Modal -->
+    <div id="ajax-modal"></div>
+    <!-- Ajax Close -->
+    <a href="#" class="ajax-close" data-dismiss="ajax-modal"><i class="ti-close"></i></a>
+    <!-- Ajax Loader -->
+    <svg id="ajax-loader" class="loader" width="32px" height="32px" viewBox="0 0 66 66"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle class="circle" fill="none" stroke-width="5" stroke-linecap="round" cx="32" cy="32" r="32"></circle>
+    </svg>
+
+    <!-- Modal / Video -->
+    <div class="modal modal-video fade" id="modalVideo" role="dialog">
+        <button class="close" data-dismiss="modal"><i class="ti-close"></i></button>
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <iframe height="500"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Libraries -->
+    <script src="{% static 'assets/js/jquery-1.12.4.min.js' %}"></script>
+
+    <!-- JS Plugins -->
+    <script src="{% static 'assets/js/plugins.js' %}"></script>
+
+    <!-- JS Core -->
+    <script src="{% static 'assets/js/core.js' %}"></script>
+
+
+
+    <!-- Styleswitcher -->
+    <script src="{% static 'assets/styleswitcher/styleswitcher.js' %}"></script>
+
+</body>
+
+</html>
